@@ -22,3 +22,8 @@ print(result)
 #Command_line_pracc.py
 #python Command_line_pracc.py 4
 #output 16
+
+
+#if user got confused
+
+#python Command_line_pracc.py -h
