@@ -1,0 +1,108 @@
+✅ Pydantic topics
+
+1. **Pydantic Basics**
+
+   * `BaseModel`
+   * Creating model classes
+   * Creating objects
+   * Automatic data conversion/validation
+
+2. **Type Validation**
+
+   * `str`, `int`, `float`, `bool`
+   * `List`, `Dict`
+   * `date`, `datetime`
+   * Type conversion
+
+3. **Strict Validation**
+
+   * `StrictInt`
+   * Strict type checking
+   * Difference between normal and strict validation
+
+4. **Field Constraints**
+
+   * `Field()`
+   * `gt`, `ge`
+   * `lt`, `le`
+   * `min_length`, `max_length`
+   * Default values
+
+5. **Optional Variables**
+
+   * `Optional`
+   * Optional fields
+   * Default values
+
+6. **Default Values**
+
+   * Normal default values
+   * Default field behavior
+
+7. **Datetime Validation**
+
+   * `date`
+   * `datetime`
+   * Date validation
+
+8. **Nested Models / Nested Classes**
+
+   * One Pydantic model inside another
+   * Example: `Emp` → `Address`
+
+9. **Email Validation**
+
+   * `EmailStr`
+   * Email validation
+   * Domain validation such as `google.com`, `microsoft.com`
+
+10. **Field Validator**
+
+* `@field_validator`
+* `before`
+* `after`
+* Cleaning input
+* Custom field validation
+
+11. **Model Validator**
+
+* `@model_validator`
+* Validating multiple fields together
+
+12. **Pydantic Metadata**
+
+* `Annotated`
+* `Field()`
+* `title`
+* `description`
+* `examples`
+
+13. **Computed Fields**
+
+* `@computed_field`
+* Calculated values based on model data
+
+14. **Exporting Data**
+
+* Converting Pydantic model data to dictionary/JSON
+* Model serialization
+
+
+Pydantic
+   │
+   ├── BaseModel
+   ├── Type Validation
+   ├── Strict Validation
+   ├── Field Constraints
+   ├── Default Values
+   ├── Optional
+   ├── Date/Datetime
+   ├── Email Validation
+   ├── Nested Models
+   ├── Field Validator
+   ├── Model Validator
+   ├── Metadata
+   ├── Computed Field
+   └── Serialization / Export
+```
+
